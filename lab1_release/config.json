@@ -1,0 +1,33 @@
+{
+  "dataset": "./dataset/easy/",
+  "output_dir": "outputs",
+  "intrinsics": {
+    "fx": 615,
+    "fy": 615,
+    "cx": 320.0,
+    "cy": 240.0
+  },
+  "depth_scale_m_per_unit": 0.001,
+  "max_range_m": 2.0,
+  "ransac": {
+    "iters": 2000,
+    "inlier_thresh_m": 0.008,
+    "min_inliers": 5000,
+    "seed": 0
+  },
+  "table_keep_side": {
+    "margin_m": 0.01
+  },
+  "mask_cleanup": {
+    "open_iters": 1,
+    "close_iters": 2,
+    "fill_holes": true
+  },
+  "cc": {
+    "min_area_px": 800,
+    "connectivity": 2
+  },
+  "viz": {
+    "alpha": 0.55
+  }
+}
