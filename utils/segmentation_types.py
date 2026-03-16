@@ -1,7 +1,3 @@
-"""
-Type definitions for segmentation results and diagnostics.
-"""
-
 from __future__ import annotations
 from typing import Optional, Dict, Any
 import numpy as np

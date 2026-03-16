@@ -1,10 +1,3 @@
-"""
-CS3630 Lab 1: Evaluation Utilities
-
-Provides Hungarian matching and Panoptic Quality (PQ) metrics for instance segmentation.
-Main metric: PQ = SQ × RQ, where SQ is mean IoU over matched pairs, RQ is recognition quality.
-"""
-
 from __future__ import annotations
 from typing import Dict, Any
 import numpy as np

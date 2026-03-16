@@ -1,6 +1,4 @@
 """
-CS3630 Lab 1 - Utilities Package
-
 This package contains utility functions for:
 - Data I/O (OCID dataset)
 - Evaluation metrics (IoU-based, Hungarian matching)

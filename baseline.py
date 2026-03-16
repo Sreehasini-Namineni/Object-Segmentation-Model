@@ -1,12 +1,3 @@
-"""
-Baseline segmentation method (M0): RANSAC plane removal + connected components.
-
-This is the simplest approach:
-1. Remove table plane using RANSAC
-2. Find connected components in remaining depth pixels
-3. Filter by size
-"""
-
 from __future__ import annotations
 from typing import Dict, Any
 import numpy as np
